@@ -41,6 +41,7 @@ struct Instance {
     Instance(std::string s) {
         seed = s;
         hashedSeed = pseudohash(s);
+        std::cout << "hashedSeed: " << hashedSeed;
         params = InstParams();
         rng = LuaRandom(0);
         cache.generatedFirstPack = false;

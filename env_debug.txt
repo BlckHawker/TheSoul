@@ -1,0 +1,10 @@
+==== ENV START ==== 
+PATH=C:\emsdk;C:\emsdk\upstream\emscripten;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Nya\AppData\Local\Microsoft\WindowsApps;C:\Users\Nya\.dotnet\tools;C:\ProgramData\Nya\GitHubDesktop\bin;C:\Users\Nya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nya\AppData\Local\GitHubDesktop\bin;C:\Users\Nya\AppData\Roaming\npm; 
+C:\emsdk\upstream\emscripten\em++
+C:\emsdk\upstream\emscripten\em++.bat
+C:\emsdk\upstream\emscripten\em++.py
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 4.0.14 (96371ed7888fc78c040179f4d4faa82a6a07a116)
+Copyright (C) 2025 the Emscripten authors (see AUTHORS.txt)
+This is free and open source software under the MIT license.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
