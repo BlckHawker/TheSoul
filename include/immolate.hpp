@@ -101,20 +101,20 @@ EMSCRIPTEN_BINDINGS(Immolate) {
         .property("enhancement", &Card::enhancement)
         .property("edition", &Card::edition)
         .property("seal", &Card::seal);
-    constant("ENHANCEMENTS", std::ref(ENHANCEMENTS));
-    constant("CARDS", std::ref(CARDS));
-    constant("SUITS", std::ref(SUITS));
-    constant("RANKS", std::ref(RANKS));
-    constant("TAROTS", std::ref(TAROTS));
-    constant("PLANETS", std::ref(PLANETS));
-    constant("COMMON_JOKERS", std::ref(COMMON_JOKERS));
-    constant("UNCOMMON_JOKERS", std::ref(UNCOMMON_JOKERS));
-    constant("RARE_JOKERS", std::ref(RARE_JOKERS));
-    constant("LEGENDARY_JOKERS", std::ref(LEGENDARY_JOKERS));
-    constant("VOUCHERS", std::ref(VOUCHERS));
-    constant("SPECTRALS", std::ref(SPECTRALS));
-    constant("TAGS", std::ref(TAGS));
-    constant("BOSSES", std::ref(BOSSES));
+    constant("ENHANCEMENTS", ENHANCEMENTS);
+    constant("CARDS", CARDS);
+    constant("SUITS", SUITS);
+    constant("RANKS", RANKS);
+    constant("TAROTS", TAROTS);
+    constant("PLANETS", PLANETS);
+    constant("COMMON_JOKERS", COMMON_JOKERS);
+    constant("UNCOMMON_JOKERS", UNCOMMON_JOKERS);
+    constant("RARE_JOKERS", RARE_JOKERS);
+    constant("LEGENDARY_JOKERS", LEGENDARY_JOKERS);
+    constant("VOUCHERS", VOUCHERS);
+    constant("SPECTRALS", SPECTRALS);
+    constant("TAGS", TAGS);
+    constant("BOSSES", BOSSES);
 
     //util.hpp
     function("pseudohash", &pseudohash);

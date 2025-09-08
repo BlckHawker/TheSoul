@@ -14,7 +14,7 @@ echo Building Immolate...
 echo.
 
 REM Compile and log output
-em++ -v include\immolate.cpp -o immolate.js -s EXPORT_NAME=Immolate --closure 1 -lembind > build.log 2>&1
+em++ -v include\immolate.cpp -o immolate.js -s EXPORT_NAME=Immolate --closure 1 -lembind -sASSERTIONS -sFORCE_FILESYSTEM=1 > build.log 2>&1
 
 echo ERRORLEVEL is %ERRORLEVEL%
 

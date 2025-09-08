@@ -41,7 +41,8 @@ struct Instance {
     Instance(std::string s) {
         seed = s;
         hashedSeed = pseudohash(s);
-        std::cout << "hashedSeed: " << hashedSeed;
+        std::cout << "[Instance constructor called]" << std::endl;
+        std::cout << "hashedSeed: " << hashedSeed << std::endl;
         params = InstParams();
         rng = LuaRandom(0);
         cache.generatedFirstPack = false;
